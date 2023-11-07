@@ -202,8 +202,8 @@ img {vertical-align: middle;}
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 12px;
-  width: 12px;
+  height: 5px;
+  width: 5px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -258,23 +258,23 @@ img {vertical-align: middle;}
 }
 
 #feature .fe-box {
-  width: 150px;
+  width: 90px;
   text-align: center;
   padding: 25px 15px;
   box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
   border: 1px solid #cce7d0;
-  border-radius: 5px;
-  margin: 13px 0;
+  border-radius: 15px;
+  margin: 3px 0;
 }
 
 #feature .fe-box:hover {
-  box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+  box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.3);
 
 }
 
 #feature .fe-box img {
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
 }
 
 #feature .fe-box h6 {
@@ -309,7 +309,7 @@ img {vertical-align: middle;}
   border: 0;
   border-bottom: 5px solid black;
   width: 0;
-  animation: none;
+  animation:backwards;
 }
 @keyframes expand-contract {
   0% {
@@ -641,7 +641,7 @@ img {vertical-align: middle;}
     flex-wrap: wrap;
   }
   #feature .fe-box{
-    margin : 15px 15px;
+    margin : 10px 10px;
   }
   #product1 .pro-container{
     justify-content: center;
