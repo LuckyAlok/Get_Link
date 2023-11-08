@@ -1,0 +1,405 @@
+<!DOCTYPE html><html><head><title>Product 30</title></head><body><h1>Product 30</h1></body></html> 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDU PREMIUM COVER</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/928b15e436.js" crossorigin="anonymous"></script>
+    <style>
+        .single-pro-image .pro {
+            position: relative;
+            overflow: hidden;
+            margin: 40px;
+            height: 300px; /* Set your desired height */
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+          }
+          
+          .single-pro-image .pro img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s;
+          }
+          .single-pro-image .pro:hover img {
+            transform: scale(1.2); /* Increase the scale on hover to view the full image */
+          }
+         .single-pro-image .pro:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+        }
+        @media (min-width: 1000px) {
+            .single-pro-image .pro {
+              height: 520px; /* Set the height to 400px for screens up to 1000px width */
+            }
+          }
+          
+
+        /* details*/
+        .single-pro-details {
+            font-family: 'Your Font', sans-serif;
+            /* Specify your desired font-family */
+            text-align: center;
+            /* Center-align the text */
+            margin-top: 20px;
+            margin-left: 40px;
+        }
+
+        .single-pro-details h2 {
+            font-size: 36px;
+            /* Adjust the font size as needed */
+            text-align: left;
+            font-weight: bold;
+            /* Make the text bold */
+            color: #333;
+            /* Set the text color to a dark color */
+            text-transform: uppercase;
+            /* Convert text to uppercase */
+            margin: 10px 0;
+        }
+
+        .single-pro-details h1 {
+            font-family: 'Your Font', sans-serif;
+            text-align: left;
+            /* Specify your desired font-family */
+            font-size: 28px;
+            /* Adjust the font size as needed */
+            font-weight: bold;
+            /* Make the text bold */
+            color: #333;
+            /* Set the text color to a dark color */
+            text-transform: uppercase;
+            /* Convert text to uppercase */
+            margin: 10px 0;
+        }
+
+        .single-pro-details h2,
+        .single-pro-details h1 {
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+            /* Add a subtle text shadow */
+        }
+
+        .single-pro-details h4 {
+            font-size: 15px;
+            /* Adjust the font size as needed */
+            margin: 40px 0 10px;
+        }
+
+        .single-pro-details span {
+            font-size: 16px;
+            /* Adjust the font size as needed */
+            line-height: 1.4;
+            /* Specify the line height for better readability */
+            opacity: 0.7;
+            font-style: italic;
+        }
+
+        /* Style the two-column container using flexbox */
+        #prodetailes .two-column {
+            display: flex;
+            align-items: center;
+            /* Vertically center items in the container */
+        }
+
+        /* Style the left column containing the image */
+        #prodetailes .single-pro-image {
+            flex: 1;
+            padding: 10px;
+        }
+
+        /* Style the right column containing the product details */
+        #prodetailes .single-pro-details {
+            flex: 1;
+            padding: 10px;
+        }
+
+        /* Make it responsive - Stack columns on smaller screens */
+        @media (max-width: 768px) {
+            #prodetailes .two-column {
+                flex-direction: column;
+            }
+
+            #prodetailes .single-pro-image,
+            #prodetailes .single-pro-details {
+                max-width: 100%;
+            }
+        }
+        .normal {
+            width: 150px;
+            height: 40px;
+            border-width: 0.5cap;
+            border-radius: 20px;
+            border-color: rgb(0, 191, 255);
+            transition: transform cubic-bezier(0.19, 1, 0.22, 1);
+        }
+
+        .normal:hover {
+            background-color: rgb(0, 191, 255);
+            color: white;
+
+            transform: scale(1.1);
+        }
+          
+          
+          
+
+
+
+        #prodetailes .single-pro-details select {
+            display: block;
+            padding: 5px 10px;
+            margin-bottom: 10px;
+        }
+
+        /* Style the form container */
+        #prodetailes .single-pro-details form {
+            width: 500px;
+            margin: 0 auto;
+            background-color: #f8f4f4;
+            padding: 30px;
+            border-radius: 14px;
+        }
+
+        /* Style form labels */
+        #prodetailes .single-pro-details label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        /* Style text inputs and textarea */
+        #prodetailes .single-pro-details input[type="tel"],
+        #prodetailes .single-pro-details input[type="email"],
+        #prodetailes .single-pro-details textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .normal {
+            width: 150px;
+            height: 40px;
+            border-width: 0.5cap;
+            border-radius: 20px;
+            border-color: rgb(0, 191, 255);
+            transition: transform cubic-bezier(0.19, 1, 0.22, 1);
+        }
+
+        .normal:hover {
+            background-color: rgb(0, 191, 255);
+            color: white;
+
+            transform: scale(1.2);
+        }
+        .form-design{
+            font-family: Arial, sans-serif;
+          
+            margin: 0;
+            padding: 30px;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        .form-design label{
+            display: inline;
+            font-weight: bolder;
+        }
+        .form-design input, textarea{
+            border: 0;
+            border-bottom: 2px solid #252a30;
+            outline: none;
+        }
+        @media (max-width: 768px) {
+            .form-design {
+                width: 100%;
+            }
+            .form-design label{
+                display: block;
+                padding-top: 10px;
+            }
+            .form-design input, textarea{
+            width: 80%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 0;
+            border-bottom: 2px solid #252a30;
+            outline: none;
+
+        }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Load an icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#">INDU PREMIUM COVER</a></div>
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="category.html">Category</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html"><i class="fa-solid fa-cart-shopping"></i></li>
+            </ul>
+            <a href="login.html" class="action_btn">Login</a>
+
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="category.html">Category</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-cart-shopping"></i></li>
+            <li><a href="login.html" class="action_btn">Login</a></li>
+        </div>
+
+    </header>
+
+
+    <section id="prodetailes" class="section-p1" style="margin-top: 30px;">
+        <div class="two-column">
+            <div class="single-pro-image">
+                <div class="pro">
+                    <img src="category/Bts/bts (3).jpg">
+                </div>
+            </div>
+
+            <div class="single-pro-details">
+                <h2>Anime Case</h2>
+                <h1>Anime lover</h1>
+                <h2>₹ 99</h2>
+                <button  class="normal"><a href="#form-submit-button">Buy Now</a></button>
+                <h4>Product</h4>
+                <span style="opacity: 0.7;">Who needs color when you can rock the monochrome vibe? Feeling artsy and
+                    cool in this black and white outdoor shot. #Artistic #BlackAndWhitePhotography
+                    #MonochromeMagic</span>
+            </div>
+        </div>
+    </section>
+<hr>
+<div  class="form-design"  id="form-submit-button">
+    <h2 style="font-weight: bold; font-size: 28px; color: #252a30; text-transform: uppercase;">Shipping Information</h2>
+
+
+    <form action="https://formsubmit.co/c473ab1f5820b23cab0f4baec8642ee3" method="POST">
+        <label for="full_name">Name:</label>
+        <input type="text" id="full_name" name="full_name" required>
+    
+    
+        <label for="phone">Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="\d{10}" required>
+        
+    
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+        
+    
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea>
+        
+    
+        <input type="hidden" name="message" value="Forward details of a particular type of form">
+    
+        <p style="color: #999; font-style: italic;">Our Company will send and notify you of our product updates.</p>
+        <br>
+    
+        <button class="normal" type="submit">Confirm</button>
+    </form>
+    
+
+</div>
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>INDU<span>PREMIUM</span></h3>
+
+            <p class="footer-links">
+                <a href="index.html" class="link-1">Home</a>
+
+                <a href="category.html">Category</a>
+
+                <a href="product.html">Product</a>
+
+                <a href="about.html">About</a>
+
+                <a href="#">Faq</a>
+
+                <a href="contact.html">Contact</a>
+            </p>
+
+            <p class="footer-company-name">INDU PREMIUM CASE © 2023</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+919579498881</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:indupremiumcover@.com">indupremiumcover@.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>About the company</span>
+                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus
+                vehicula sit amet.
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="https://instagram.com/indu_premium.covers?igshid=MzRlODBiNWFlZA=="><i
+                        class="fa fa-instagram"></i></a>
+                <a href="https://wa.me/+917758957949"><i class="fa-brands fa-whatsapp"></i></a>
+
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+    </script>
+</body>
+
+</html>
