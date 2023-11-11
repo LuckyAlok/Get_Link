@@ -31,3 +31,12 @@ window.addEventListener('scroll', function () {
   }
 });
 
+        function openWhatsApp() {
+            
+            var phoneNumber = '7249855619';
+            var url = 'whatsapp://send?phone=' + phoneNumber;
+            
+            
+            window.location.href = url;
+        }
+ 

@@ -295,12 +295,7 @@ img {vertical-align: middle;}
 #feature .fe-box:nth-child(4) h6{
   background-color: #ebaab9;
 }
-#feature .fe-box:nth-child(5) h6{
-  background-color: #f1b0f4;
-}
-#feature .fe-box:nth-child(6) h6{
-  background-color: #f7b5c4;
-}
+
 #product1{
   text-align: center;
 }
@@ -408,7 +403,7 @@ img {vertical-align: middle;}
 @media (max-width: 576px) {
   #product1 .pro{
     width: 10%;
-    min-width: 190px;
+    min-width: 150px;
     padding: 10px 10px;
     border: 1px solid #cce7d0;
     border-radius: 25px;

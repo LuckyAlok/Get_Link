@@ -1,6 +1,282 @@
 /* Google Font Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
+        .single-pro-image .pro {
+            position: relative;
+            overflow: hidden;
+            margin: 40px;
+            height: 300px;
+            /* Set your desired height */
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .single-pro-image .pro img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+
+        .single-pro-image .pro:hover img {
+            transform: scale(1.2);
+            /* Increase the scale on hover to view the full image */
+        }
+
+        .single-pro-image .pro:hover {
+            transform: scale(1.9);
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+        }
+
+        @media (min-width: 1000px) {
+            .single-pro-image .pro {
+                height: 520px;
+                /* Set the height to 400px for screens up to 1000px width */
+            }
+        }
+
+
+        /* details*/
+        .single-pro-details {
+            font-family: 'Your Font', sans-serif;
+            /* Specify your desired font-family */
+            text-align: center;
+            /* Center-align the text */
+            margin-top: 20px;
+            margin-left: 40px;
+        }
+
+        .single-pro-details h2 {
+            font-size: 36px;
+            /* Adjust the font size as needed */
+            text-align: left;
+            font-weight: bold;
+            /* Make the text bold */
+            color: #333;
+            /* Set the text color to a dark color */
+            text-transform: uppercase;
+            /* Convert text to uppercase */
+            margin: 10px 0;
+        }
+
+        .single-pro-details h1 {
+            font-family: 'Your Font', sans-serif;
+            text-align: left;
+            /* Specify your desired font-family */
+            font-size: 28px;
+            /* Adjust the font size as needed */
+            font-weight: bold;
+            /* Make the text bold */
+            color: #333;
+            /* Set the text color to a dark color */
+            text-transform: uppercase;
+            /* Convert text to uppercase */
+            margin: 10px 0;
+        }
+
+        .single-pro-details h2,
+        .single-pro-details h1 {
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+            /* Add a subtle text shadow */
+        }
+
+        .single-pro-details h4 {
+            font-size: 15px;
+            /* Adjust the font size as needed */
+            margin: 40px 0 10px;
+        }
+
+        .single-pro-details span {
+            font-size: 16px;
+            /* Adjust the font size as needed */
+            line-height: 1.4;
+            /* Specify the line height for better readability */
+            opacity: 0.7;
+            font-style: italic;
+        }
+
+        /* Style the two-column container using flexbox */
+        #prodetailes .two-column {
+            display: flex;
+            align-items: center;
+            /* Vertically center items in the container */
+        }
+
+        /* Style the left column containing the image */
+        #prodetailes .single-pro-image {
+            flex: 1;
+            padding: 10px;
+        }
+
+        /* Style the right column containing the product details */
+        #prodetailes .single-pro-details {
+            flex: 1;
+            padding: 10px;
+        }
+
+        /* Make it responsive - Stack columns on smaller screens */
+        @media (max-width: 768px) {
+            #prodetailes .two-column {
+                flex-direction: column;
+            }
+
+            #prodetailes .single-pro-image,
+            #prodetailes .single-pro-details {
+                max-width: 100%;
+            }
+        }
+
+        .normal {
+            width: 150px;
+            height: 40px;
+            border-width: 0.5cap;
+            border-radius: 20px;
+            border-color: rgb(0, 191, 255);
+            transition: transform cubic-bezier(0.19, 1, 0.22, 1);
+        }
+
+        .normal:hover {
+            background-color: rgb(0, 191, 255);
+            color: white;
+
+            transform: scale(1.1);
+        }
+
+
+
+
+
+
+        #prodetailes .single-pro-details select {
+            display: block;
+            padding: 5px 10px;
+            margin-bottom: 10px;
+        }
+
+        /* Style the form container */
+        #prodetailes .single-pro-details form {
+            width: 500px;
+            margin: 0 auto;
+            background-color: #f8f4f4;
+            padding: 30px;
+            border-radius: 14px;
+        }
+
+        /* Style form labels */
+        #prodetailes .single-pro-details label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        /* Style text inputs and textarea */
+        #prodetailes .single-pro-details input[type="tel"],
+        #prodetailes .single-pro-details input[type="email"],
+        #prodetailes .single-pro-details textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .normal {
+            width: 150px;
+            height: 40px;
+            border-width: 0.5cap;
+            border-radius: 20px;
+            border-color: rgb(0, 191, 255);
+            transition: transform cubic-bezier(0.19, 1, 0.22, 1);
+        }
+
+        .normal:hover {
+            background-color: rgb(0, 191, 255);
+            color: white;
+
+            transform: scale(1.2);
+        }
+
+        .form-design {
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+            padding: 30px;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .form-design label {
+            display: inline;
+            font-weight: bolder;
+        }
+
+        .form-design input,
+        textarea {
+            border: 0;
+            border-bottom: 2px solid #252a30;
+            outline: none;
+        }
+
+
+
+
+        @media (max-width: 768px) {
+            .form-design {
+                width: 100%;
+            }
+
+            .form-design label {
+                display: block;
+                padding-top: 10px;
+            }
+
+            .form-design input,
+            textarea {
+                width: 80%;
+                padding: 10px;
+                margin-top: 10px;
+                border: 0;
+                border-bottom: 2px solid #252a30;
+                outline: none;
+
+            }
+        }
+        #modelSelector {
+    /* Define height, width, and margin */
+    width: 40%;
+    height: 40px;
+    margin: 10px 0;
+    
+    /* Set background and text color */
+    background-color: #fff;
+    color: #333;
+    
+    /* Define border properties */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+    /* Define padding and appearance */
+    padding: 5px;
+    appearance: none; /* To remove the default arrow in some browsers */
+}
+
+/* Style the select when hovered */
+#modelSelector:hover {
+    border-color: #aaa;
+}
+
+/* Style the select when focused */
+#modelSelector:focus {
+    outline: none;
+    border-color: #4d90fe; /* Example color for focus state */
+    box-shadow: 0 0 5px rgba(77, 144, 254, 0.5); /* Example box shadow for focus */
+}
+
+
+  
 * {
   margin: 0;
   padding: 0;
@@ -446,7 +722,7 @@ img {
 @media (max-width: 576px) {
   #product1 .pro {
     width: 10%;
-    min-width: 190px;
+    min-width: 150px;
     padding: 10px 10px;
     border: 1px solid #cce7d0;
     border-radius: 25px;
